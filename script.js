@@ -3,9 +3,9 @@ const age = prompt("quanti anni hai?")
 
 let discount = 0;
 
-if (age <= 18) {
+if (age < 18) {
     discount = 20
-} else if (age >= 65) {
+} else if (age > 65) {
     discount = 40
 }
 
